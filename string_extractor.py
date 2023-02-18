@@ -22,6 +22,9 @@ for excluded_line in excluded_lines:
     excluded_strings = re.findall(r'["\']([^"\']*)["\']', excluded_line)
     strings = [s for s in strings if s not in excluded_strings]
 
+# Exclude empty strings
+strings = [s for s in strings if s]
+
 # Append the strings to the JSON file
 json_file = "output.json"
 try:
