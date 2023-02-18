@@ -1,2 +1,15 @@
-# extract-string-to-json
-Simple script to extract strings from a file and add to json.
+
+# Extract Strings to JSON
+
+A simple command-line python script to extract single or double quotes strings from a file to a JSON.
+
+Keeps on appending the key-value pairs to JSON after passing new file.
+
+Tested on dart file, should work on most of files.
+
+## Usage/Examples
+
+```
+python string_extractor.py dart_file.dart
+```
+
