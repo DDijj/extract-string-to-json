@@ -13,3 +13,7 @@ Tested on dart file, should work on most of files.
 python string_extractor.py dart_file.dart
 ```
 
+# Video
+Sorry for 🥔
+https://youtu.be/HKm3NrQ7jHU
+
