@@ -14,6 +14,5 @@ python string_extractor.py dart_file.dart
 ```
 
 # Video
-Sorry for 🥔
 https://youtu.be/HKm3NrQ7jHU
 
