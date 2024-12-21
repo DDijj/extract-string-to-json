@@ -34,3 +34,5 @@ for i, s in enumerate(strings, start=max_key+1):
 # Write the JSON content to the output file
 with open(json_file, "w") as f:
     json.dump(json_content, f, indent=4)
+
+python string_extractor.py dart_file.dart
